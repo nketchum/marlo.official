@@ -1,0 +1,28 @@
+.col-squeeze {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  border-top: none;
+}
+
+.header-container,
+.main-container {
+  max-width: 1200px;
+}
+
+.main-container {
+  margin-bottom: 3em;
+}
+
+.page-header {
+  border: none;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: $bold-weight;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: lowercase;
+}

@@ -1,0 +1,131 @@
+a {
+  color: $red;
+}
+
+blockquote {
+  border: none;
+  font-size: inherit;
+  margin: 3.5em 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  > p {
+    color: $red;
+    line-height: 1.5;
+    font-size: 1.1em;
+    font-family: $slab;
+    font-weight: $bold-weight;
+    padding: 0 5em;
+    width: 100%;
+    > cite {
+      color: $grey;
+      display: block;
+      font-size: 0.75em;
+      font-weight: $norm-weight;
+      letter-spacing: 0.05em;
+      margin-top: 0.75em;
+    }
+    &::before,
+    &::after {
+      color: $chalk;
+      font-family: $slab;
+      font-size: 5em;
+      font-weight: $norm-weight;
+      line-height: 0;
+      position: absolute;
+      top: 50%;
+    }
+    &::before {
+      content: "\275D";
+      left: 0;
+    }
+    &::after {
+      content: "\275E";
+      right: 0;
+    }
+  }
+  &::first-child {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+}
+
+html {
+  font-size: 150%;
+  @include font-smoothing(subpixel-antialiased);
+  font-weight: $norm-weight;
+  line-height: 1.5;
+}
+
+body {
+  background-color: $chalk + 12;
+  color: $coal;
+  font-size: (2/3) + em;
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  margin: 3em 0 5em;
+  padding: 0;
+  &::before {
+    color: $chalk;
+    content: "~";
+    display: block;
+    font-size: 4em;
+    line-height: 0.5em;
+    text-align: center;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  &.align-left,
+  &.align-right {
+    margin-bottom: 1em;
+    margin-top: 0.15em;
+  }
+  &.align-left {
+    margin-right: 2em;
+  }
+  &.align-right {
+    margin-left: 2em;
+  }
+}
+
+p {
+  margin-bottom: 1em;
+  > img {
+    &.align-left,
+    &.align-right {
+      max-width: 370px;
+    }
+  }
+  &.dropcap::first-letter {
+    color: $red; 
+    display: inline-block;
+    float: left; 
+    font-family: $slab;
+    font-size: 3.15em;
+    line-height: 0.5;
+    margin: 0 0.05em 0 -0.015em;
+    padding: 0.175em 0 0.165em;
+  }
+  &.dropcap.illuminated::first-letter {
+    background-color: $red;
+    color: $chalk + 10;
+    margin-left: 0;
+    margin-right: 0.05em;
+  }
+  &.lead {
+    color: $grey;
+    font-family: $slab;
+    font-size: 1.3333em;
+    letter-spacing: 0.01em;
+    line-height: 1.5em;
+    strong {
+      color: $coal;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://drupal.org/user/2"
+    },
+    "type": {
+      "href": "http://drupal.org/rest/type/user/user"
+    }
+  },
+  "access": [
+    {
+      "value": "1472066575"
+    }
+  ],
+  "changed": [
+    {
+      "value": "1472586638"
+    }
+  ],
+  "created": [
+    {
+      "value": "1472046182"
+    }
+  ],
+  "default_langcode": [
+    {
+      "value": "1"
+    }
+  ],
+  "init": [
+    {
+      "value": "author@marlonow.com"
+    }
+  ],
+  "langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "login": [
+    {
+      "value": "1472065121"
+    }
+  ],
+  "mail": [
+    {
+      "value": "author@marlonow.com"
+    }
+  ],
+  "name": [
+    {
+      "value": "author"
+    }
+  ],
+  "name": [
+    {
+      "value": "author"
+    }
+  ],
+  "pass": [
+    {
+      "value": "temp"
+    }
+  ],
+  "preferred_admin_langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "preferred_langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "roles": [
+    {
+      "target_id": "author"
+    }
+  ],
+  "status": [
+    {
+      "value": "1"
+    }
+  ],
+  "uid": [
+    {
+      "value": "2"
+    }
+  ],
+  "uuid": [
+    {
+      "value": "4f0509ac-e995-4975-91e5-eab96387637c"
+    }
+  ]
+}

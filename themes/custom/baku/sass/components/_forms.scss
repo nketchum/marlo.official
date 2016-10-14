@@ -1,0 +1,50 @@
+form {
+  label {
+    color: $grey;
+    font-weight: $norm-weight;
+  }
+  
+  .form-type-email,
+  .form-type-password,
+  .form-type-textfield,
+  .form-type-textarea {
+    > label {
+      height: 34px;
+      line-height: 1.42857;
+      margin: 1px 1px 0;
+      padding: 6px 12px 0;
+      position: absolute;
+      top: 0;
+      z-index: 5;
+    }
+  }
+
+  // Cover up infield label if ckeditor 
+  .cke {
+    position: relative;
+    z-index: 10;
+  }
+
+  .form-item {
+    position: relative
+  }
+  &.user-login-form,
+  &.user-pass {
+    text-align: center;
+    .description {
+      display: none;
+    }
+    .form-control {
+      display: inline-block;
+    }
+  }
+
+  &.contact-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    .form-actions {
+      text-align: center;
+    }
+  }
+}

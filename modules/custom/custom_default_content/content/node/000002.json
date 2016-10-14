@@ -1,0 +1,133 @@
+{
+  "_embedded": {
+    "http://drupal.org/rest/relation/node/page/revision_uid": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://drupal.org/user/2"
+          },
+          "type": {
+            "href": "http://drupal.org/rest/type/user/user"
+          }
+        },
+        "uuid": [
+          {
+            "value": "4f0509ac-e995-4975-91e5-eab96387637c"
+          }
+        ]
+      }
+    ],
+    "http://drupal.org/rest/relation/node/page/uid": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://drupal.org/user/2"
+          },
+          "type": {
+            "href": "http://drupal.org/rest/type/user/user"
+          }
+        },
+        "uuid": [
+          {
+            "value": "4f0509ac-e995-4975-91e5-eab96387637c"
+          }
+        ]
+      }
+    ]
+  },
+  "_links": {
+    "http://drupal.org/rest/relation/node/page/revision_uid": [
+      {
+        "href": "http://drupal.org/user/2"
+      }
+    ],
+    "http://drupal.org/rest/relation/node/page/uid": [
+      {
+        "href": "http://drupal.org/user/2"
+      }
+    ],
+    "self": {
+      "href": "http://drupal.org/node/2"
+    },
+    "type": {
+      "href": "http://drupal.org/rest/type/node/page"
+    }
+  },
+  "body": [
+    {
+      "format": "formatted_text",
+      "summary": "",
+      "value": "<blockquote>\r\n<p>Engrave it upon tablets. Make the vision so plain, that all who pass by shall read it and instantly understand. <em>— Habakkuk 2:2</em></p>\r\n</blockquote>\r\n\r\n<p><strong>Philosophy</strong></p>\r\n\r\n<p>Don't fuck around.</p>\r\n\r\n<p><strong>Personal Mission</strong></p>\r\n\r\n<p>To witness god through song and dance.</p>\r\n\r\n<p>To communicate and express divine excellence through every movement of my body.</p>\r\n\r\n<p>To confront sacred and secular beliefs of the human body through music visualization.</p>\r\n\r\n<p>To energize everyone I come into contact with.</p>\r\n"
+    }
+  ],
+  "changed": [
+    {
+      "value": "1472140313"
+    }
+  ],
+  "created": [
+    {
+      "value": "1472140296"
+    }
+  ],
+  "default_langcode": [
+    {
+      "value": "1"
+    }
+  ],
+  "langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "nid": [
+    {
+      "value": "2"
+    }
+  ],
+  "promote": [
+    {
+      "value": "0"
+    }
+  ],
+  "revision_timestamp": [
+    {
+      "value": "1472140313"
+    }
+  ],
+  "revision_translation_affected": [
+    {
+      "value": "1"
+    }
+  ],
+  "status": [
+    {
+      "value": "1"
+    }
+  ],
+  "sticky": [
+    {
+      "value": "0"
+    }
+  ],
+  "title": [
+    {
+      "value": "Philosophy"
+    }
+  ],
+  "type": [
+    {
+      "target_id": "page"
+    }
+  ],
+  "uuid": [
+    {
+      "value": "c7e7ac94-3d29-44e2-a6e2-d67957fa855c"
+    }
+  ],
+  "vid": [
+    {
+      "value": "2"
+    }
+  ]
+}

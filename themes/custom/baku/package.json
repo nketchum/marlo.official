@@ -1,0 +1,32 @@
+{
+  "name": "Baku",
+  "version": "1.0.0",
+  "description": "Javascript functionality for the Drupal 8 bootstrap subtheme.",
+  "private": true,
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "goog-webfont-dl": "^0.4.0",
+    "jquery": "^3.1.0",
+    "jquery.infieldlabel": "https://github.com/dcneiner/In-Field-Labels-jQuery-Plugin/tarball/master",
+    "node-sass": "^3.8.0",
+    "path": "^0.12.7",
+    "rimraf": "^2.5.4",
+    "webfontloader": "^1.6.26",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "postinstall": "npm run build",
+      "build":  "rm -rf dist || true && mkdir -p dist && npm run js && npm run sass && npm run assets",
+        "js":   "rm -rf dist/js || true && webpack",
+        "sass": "node tasks/sass.js",
+        "assets":   "npm run images && npm run icons && npm run fonts",
+          "images": "rm -rf dist/images || true && mkdir -p dist/images && cp `find ./images -type f` dist/images/",
+          "icons":  "rm -rf dist/icons || true && mkdir -p dist/icons && cp `find ./node_modules/bootstrap-sass/assets/fonts/bootstrap -type f` dist/icons/",
+          "fonts":  "rm -rf dist/fonts || true && mkdir -p dist/fonts && npm run _roboto-norm && npm run _roboto-cond && npm run _roboto-slab",
+            "_roboto-norm": "goog-webfont-dl -Wwe -f \"Roboto\" -u latin -d dist/fonts -y 400,700,400italic,700italic --out \"dist/fonts/Roboto.css\"",
+            "_roboto-cond": "goog-webfont-dl -Wwe -f \"Roboto Condensed\" -u latin -d dist/fonts -y 400,700,400italic,700italic --out \"dist/fonts/Roboto-Condensed.css\"",
+            "_roboto-slab": "goog-webfont-dl -Wwe -f \"Roboto Slab\" -u latin -d dist/fonts -y 400,700 --out \"dist/fonts/Roboto-Slab.css\"",
+    "watch-sass":     "npm run sass && node-sass --watch --source-map dist/css --source-map-contents true --source-comments true sass/index.scss dist/css/styles.css",
+    "watch-sass-min": "npm run sass && node-sass --watch --output-style compressed sass/index.scss dist/css/styles.min.css"
+  }
+}

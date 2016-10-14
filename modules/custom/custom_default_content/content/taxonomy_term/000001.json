@@ -1,0 +1,50 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://drupal.org/taxonomy/term/1"
+    },
+    "type": {
+      "href": "http://drupal.org/rest/type/taxonomy_term/locations"
+    }
+  },
+  "changed": [
+    {
+      "value": "1472586791"
+    }
+  ],
+  "default_langcode": [
+    {
+      "value": "1"
+    }
+  ],
+  "langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "name": [
+    {
+      "value": "Detroit"
+    }
+  ],
+  "tid": [
+    {
+      "value": "1"
+    }
+  ],
+  "uuid": [
+    {
+      "value": "276f788e-ec0e-4593-8007-95dc007978f0"
+    }
+  ],
+  "vid": [
+    {
+      "target_id": "locations"
+    }
+  ],
+  "weight": [
+    {
+      "value": "0"
+    }
+  ]
+}

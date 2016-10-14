@@ -1,0 +1,12 @@
+{% extends "block--bare.html.twig" %}
+{% block content %}
+  {% if site_logo %}
+    <img class="masthead-banner" src="/{{ base_path ~ directory }}/dist/images/masthead.png" alt="Marlo Dell Antonio">
+  {% endif %}
+  {% if site_name %}
+    <h1 class="name navbar-brand">{{ content.site_name }}</h1>
+  {% endif %}
+  {% if site_slogan %}
+    <p class="navbar-text">{{ site_slogan }}</p>
+  {% endif %}
+{% endblock %}

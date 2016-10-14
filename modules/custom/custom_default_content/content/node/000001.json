@@ -1,0 +1,133 @@
+{
+  "_embedded": {
+    "http://drupal.org/rest/relation/node/page/revision_uid": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://drupal.org/user/2"
+          },
+          "type": {
+            "href": "http://drupal.org/rest/type/user/user"
+          }
+        },
+        "uuid": [
+          {
+            "value": "4f0509ac-e995-4975-91e5-eab96387637c"
+          }
+        ]
+      }
+    ],
+    "http://drupal.org/rest/relation/node/page/uid": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://drupal.org/user/2"
+          },
+          "type": {
+            "href": "http://drupal.org/rest/type/user/user"
+          }
+        },
+        "uuid": [
+          {
+            "value": "4f0509ac-e995-4975-91e5-eab96387637c"
+          }
+        ]
+      }
+    ]
+  },
+  "_links": {
+    "http://drupal.org/rest/relation/node/page/revision_uid": [
+      {
+        "href": "http://drupal.org/user/2"
+      }
+    ],
+    "http://drupal.org/rest/relation/node/page/uid": [
+      {
+        "href": "http://drupal.org/user/2"
+      }
+    ],
+    "self": {
+      "href": "http://drupal.org/node/1"
+    },
+    "type": {
+      "href": "http://drupal.org/rest/type/node/page"
+    }
+  },
+  "body": [
+    {
+      "format": "formatted_text",
+      "summary": "",
+      "value": "<blockquote>\r\n<p>You'll know her by her shoulders. <cite>– Robert del Valle, Journalist</cite></p>\r\n</blockquote>\r\n\r\n<p><img alt=\"Photo of Marlo Dell Antonio\" data-align=\"left\" data-entity-type=\"file\" data-entity-uuid=\"58cad794-d186-4111-983d-7b0c34944238\" src=\"/sites/marlo.official/files/images/marlo-headshot.jpg\" /><strong>MARLO DELL ANTONIO&nbsp;</strong> is a modern dance choreographer and musician on a mission to discipline pop music.</p>\r\n\r\n<p>Dedicated to the study of motion, Marlo's kinetic eye takes precedence over every project. Classically trained with a company mentality, she strives to create an environment with her music that integrates and appreciates the value of a dancer through movement choirs. In the commercial world, dancers work the hardest and are far too often left at the bottom of the food chain. To Marlo, dancers should remain a vital element of the live performance, rather than a prop to make the artist look good.</p>\r\n\r\n<p>After a turbulent decade of struggle, loss and deliverance, Marlo has been able to hone her life experience into cutting, energetic lyrics. Her goal is make you move. She wants to excite you. With nine years of camera experience, her bright, expressive blue eyes equally convey a pain and trusting vulnerability that both draws an audience in and leaves them emotionally exhausted. Over the last three years, with an artistic team in her hometown of Detroit, Marlo has produced, directed and choreographed three short music films to accompany and complete her debut EP and artistic vision. The singles will be rolled out over the Fall of 2016. The first video is set for online release by her production company STAR RIVAL, LLC. on August 31st.</p>\r\n\r\n<blockquote>\r\n<p>Unfortunately, my beliefs do not allow me the luxury of sleeping my way to the top.</p>\r\n</blockquote>\r\n\r\n<p>Marlo earned a BA in Theatre, with a Specialization in Choreography from Michigan State University. During that time she choreographed five main-stage productions for the MSU Department of Theatre and Repertory Dance Company, including the university premiere of Broadway's <em>The Life</em>. As an undergrad, Marlo trained in MFA Movement courses under the tutelage of professor emeritus Dixie L. Durr, a renowned scholar and pioneer in dance education. Marlo's modern dance technique is derived from Laban Movement Analysis. She holds a certification in Labanotation from the New York Dance Notation Bureau. Her contemporary styles of influence include Jazz, Dancehall, Funk and Bone-breaking. Due to a scapular anomaly, Marlo's shoulder movement has a distinct edge. This signature quirk allows her to abstract her body in ways most people cannot, highlighting her performance brand. After college, Marlo performed repertory work for the Kista Tucker Dance Company (VA) and commissioned pieces for the David P. France Dance Company in Basel and Los Angeles. With zero desire to join or form a dance company herself, Marlo began exploring alternative mediums for her talents.</p>\r\n\r\n<blockquote>\r\n<p>When defining two categories of models, there's a common saying: Glamour is ‘fuck me' and Fashion is ‘fuck you'. Marlo is different. She's always telling a story with her eyes. Her expressions and positions say “stay with me; make love to me”. There's a constant intimacy; a vulnerability that she conveys effortlessly as she bares her soul to the lens.” <cite>– Davide Anderson, Fashion Photographer</cite></p>\r\n</blockquote>\r\n\r\n<p>Due to her extensive movement training, Marlo quickly gained an enviable reputation working as a Model. Thanks to her body, Marlo has the dynamic ability to transform from one character to another. She has worked for both fashion and fine art photographers in Detroit, New York and LA. She learned photoshop and negotiated deals to own and edit a majority of her work. She has artistically directed, styled and edited 90% of her portfolio and is in complete control of her chameleon-like image. Her portfolio is so diverse, it is often mistaken for the work of a photographer. She has been published in Carrie Leigh's <em>Art of Woman</em> Magazine, Detroit's <em>Six Degrees</em> Magazine and Houston's <em>Ikonik</em> Magazine. In addition to print, Marlo regularly works with universities and trade schools in Brooklyn and Manhattan. While living in New York, she has modeled for The National Academy of Design, The New York Academy of Art, The NYU Studio School, Pratt Manhattan, The Fashion Institute of Technology, The National Arts Club, The Century Association, Spring Street Studio Soho, 3rd Ward Brooklyn, 92nd Street Y, The Bunny Cutlet Gallery and The Grand Central Atelier. Outside photography, Marlo has modeled live for over 1,700 illustrators, painters and sculptors. Her modeling work caught the attention of film directors, which led to her being a featured Actor in two short films: Blockhead (2010) and Purple Roses (2012). Currently, she will be starring in the title role of Hannah (2017), a feature film in pre-production in Detroit.</p>\r\n\r\n<blockquote>\r\n<p>Photographers enjoy working with me because I'm not trying to be a Model. I'm not trying to get a contract. I am what I am and I'm not interested in changing to fit the mold.</p>\r\n</blockquote>\r\n\r\n<p>Marlo moved to Los Angeles in the summer of 2008, originally wanting to choreograph music videos. Quickly realizing the grim reality of how little control a choreographer has in the creative process, she packed up her car and drove to New York to pursue music. In 2010, after relocating to Harlem, she eagerly experimented with song-writing and sought out producers to record dance demos. Marlo describes her writing as “bipolar-pop” because the topics range from either absurd comedy or stark melodrama. Her sound has been described as a sarcasticly violent, power pop. Her deep, aggressive voice has been likened to vocalist Annie Lennox (Eurthymics) by esteemed vocal coach Katie Agresta, whom Marlo trained with in Manhattan. Heavily influenced by the early sounds and attitudes of new wave, disco, funk and rock, her lyrics all convey one simple element: the need to move.</p>\r\n\r\n<blockquote>\r\n<p>When I dance, I am literally communicating who I am to people. I'm not even aware of it but, I am doing what I was created to do. How do you explain this to people? You can't. They just have to see it. So that's what I'm going to do. Show them.</p>\r\n</blockquote>\r\n\r\n<p>In 2009, Marlo signed with an independent music label in Detroit (III World's) to create an electronic dance demo called “The New Black”. After her contract expired, she left the label to forge her own path. In 2011, Marlo created STAR RIVAL, LLC. to house her production projects. Working with Iowan hip-hop producer Joshua Booth, she re-wrote “New Black”; taking the concept in a much darker pop-rock direction. In Fall 2012 and 2013, she launched two successful Kickstarters, raising $9,500 to fund a visual, story-driven EP. Additional music was recorded in Brooklyn with guitarist GC Castillo, who brought a retro 80s vibe to the tracks. All songs were mixed by Chuck Alkazian (<em>Soundgarden, Pop Evil</em>) of Pearl Sound Studios in Michigan and mastered by Scott Hull (<em>Kid Rock, Ani Difranco</em>) of Masterdisk Recordings in New York. The “New Black” music video was filmed by Lansing powerhouse team Ahptic Film &amp; Digital (<em>Miley Cyrus, Nelly Furtado</em>) between Jan-March 2013. The video includes wardrobe styling by Detroit's Fortoula Lambros Design and Makeup by Emmy nominated Makeup Artist Karri Farris (<em>Bonnie and Clyde</em>). Staying true to her roots, while promoting local talent and businesses in metro and downtown Detroit, all three videos on the EP were produced in Michigan. Currently back in Detroit, Marlo is gearing up to release her debut single.</p>\r\n\r\n<blockquote>\r\n<p>If you work for me, I will work my ass off for you.</p>\r\n</blockquote>\r\n\r\n<p>Marlo is thrifty. As a businesswoman, this “midwest sensibility” comes in effect through each endeavor, as she aims to bring maximum value to every dollar spent. She sets a high standard for her colleagues, while consistently demanding more from herself. Marlo strongly advocates her faith in God as being the fundamental core of her existence. She has served in the community at her local Catholic parish as a Lector (Reader of Scripture during Mass) for the past decade; most recently, at St. Francis of Assisi in Midtown Manhattan. With a firm grip on her priorities, it is no surprise that Marlo's energy is magnetic and highly contagious. Artists and entrepreneurs gravitate to her because of this win-win mentality and highly disciplined work ethic– the definitive dancer trait.</p>\r\n\r\n<hr />\r\n<h3>STATS</h3>\r\n\r\n<ul>\r\n\t<li>Height: 5'6\"</li>\r\n\t<li>Dimen: B30-22-32</li>\r\n\t<li>Weight: 105lbs</li>\r\n\t<li>Eyes: Blue</li>\r\n\t<li>Hair: Blonde</li>\r\n\t<li>Dress: 0</li>\r\n\t<li>Shoe: 7.5</li>\r\n\t<li>BMI: 11%</li>\r\n</ul>\r\n"
+    }
+  ],
+  "changed": [
+    {
+      "value": "1472498324"
+    }
+  ],
+  "created": [
+    {
+      "value": "1472042440"
+    }
+  ],
+  "default_langcode": [
+    {
+      "value": "1"
+    }
+  ],
+  "langcode": [
+    {
+      "value": "en"
+    }
+  ],
+  "nid": [
+    {
+      "value": "1"
+    }
+  ],
+  "promote": [
+    {
+      "value": "0"
+    }
+  ],
+  "revision_timestamp": [
+    {
+      "value": "1472042456"
+    }
+  ],
+  "revision_translation_affected": [
+    {
+      "value": "1"
+    }
+  ],
+  "status": [
+    {
+      "value": "1"
+    }
+  ],
+  "sticky": [
+    {
+      "value": "0"
+    }
+  ],
+  "title": [
+    {
+      "value": "About Marlo Dell Antonio"
+    }
+  ],
+  "type": [
+    {
+      "target_id": "page"
+    }
+  ],
+  "uuid": [
+    {
+      "value": "26a1c45d-0e4e-45ae-8640-3b4d9c2cb0f5"
+    }
+  ],
+  "vid": [
+    {
+      "value": "1"
+    }
+  ]
+}

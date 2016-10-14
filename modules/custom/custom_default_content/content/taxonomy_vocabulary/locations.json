@@ -1,0 +1,11 @@
+{
+  "dependencies": [],
+  "description": "",
+  "hierarchy": 0,
+  "langcode": "en",
+  "name": "Locations",
+  "status": true,
+  "uuid": "a49a2940-e711-46db-9802-e9531c696500",
+  "vid": "locations",
+  "weight": 0
+}

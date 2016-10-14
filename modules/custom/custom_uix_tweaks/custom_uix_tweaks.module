@@ -1,0 +1,115 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_uix_tweaks.module..
+ */
+
+use Drupal\Core\Block\BlockPluginInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_uix_tweaks_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.custom_uix_tweaks':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Miscellaneous tweaks that do not deserve an independent module.') . '</p>';
+      return $output;
+    default:
+  }
+}
+
+/**
+ * Implements hook_element_info_alter().
+ */
+function custom_uix_tweaks_element_info_alter(array &$types) {
+  // Our process callback must run immediately after TextFormat::processFormat().
+  if (isset($types['text_format']) && isset($types['text_format']['#process'])) {
+    $search_value = ['Drupal\filter\Element\TextFormat', 'processFormat'];
+    $key = array_search($search_value, $types['text_format']['#process']);
+    if ($key !== FALSE) {
+      $key++;
+      array_splice($types['text_format']['#process'], $key, 0, 'custom_uix_tweaks_filter_process_format');
+    }
+    else {
+      $types['text_format']['#process'][] = 'custom_uix_tweaks_filter_process_format';
+    }
+  }
+}
+
+/**
+ * Process callback for form elements that have a text format selector attached.
+ *
+ * This callback runs after filter_process_format() and performs additional
+ * modifications to the form element.
+ *
+ * @see \Drupal\filter\Element\TextFormat::processFormat()
+ */
+function custom_uix_tweaks_filter_process_format(array &$element, FormStateInterface $form_state, array $complete_form) {
+  // hide formatting help/tips
+  $element['format']['guidelines']['#access'] = FALSE;
+  $element['format']['help']['#access'] = FALSE;
+  // unstyle the filter-wrapper container
+  if ($element['format']['#type'] === 'container') {
+    if (array_key_exists('class', $element['format']['#attributes'])) {
+      $key = array_search('filter-wrapper', $element['format']['#attributes']['class']);
+      if ($key !== FALSE) {
+        unset($element['format']['#attributes']['class'][$key]);
+      }
+    }
+  }
+  return $element;
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function custom_uix_tweaks_form_contact_message_inquiries_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  _custom_uix_tweaks_form_contact_forms_alter($form);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function custom_uix_tweaks_form_contact_message_personal_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  _custom_uix_tweaks_form_contact_forms_alter($form);
+}
+
+/**
+ * Helper called by all hook_form_CONTACT_FORM_ID_alter() functions in this module.
+ */
+function _custom_uix_tweaks_form_contact_forms_alter(&$form) {
+  // Hide preview button on all contact forms for all users
+  $form['actions']['preview']['#access'] = FALSE;
+  // Hide non-input mail field for logged-in users.
+  if ($form['mail']['#type'] === 'item') {
+    $form['mail']['#type'] = 'hidden';  
+  }
+  // Hide non-input name field for logged-in users.
+  if ($form['name']['#type'] === 'item') {
+    $form['name']['#type'] = 'hidden';
+  }
+  
+}
+
+/**
+ * Implements hook_block_view_BLOCK_ID_alter().
+ */
+function custom_uix_tweaks_block_view_system_branding_block_alter(array &$build, BlockPluginInterface $block) {
+  // Customize branding block output.
+  $build['#pre_render'][] = '_custom_uix_tweaks_system_branding_block_pre_render';
+}
+
+/**
+ * Prerender for custom_uix_tweaks_block_view_system_branding_block_alter().
+ */
+function _custom_uix_tweaks_system_branding_block_pre_render(array $build) {
+  // Nest each word of the sitename in a <span> tag.
+  $site_name = explode(' ', $build['content']['site_name']['#markup']);
+  $build['content']['site_name']['#markup'] = '<span>' . implode('</span> <span>', $site_name) . '</span>';
+  return $build;
+}

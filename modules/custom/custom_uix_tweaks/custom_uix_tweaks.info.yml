@@ -1,0 +1,5 @@
+name: Custom UIX tweaks
+type: module
+description: Miscellaneous user interface/experience tweaks that belong nowhere else.
+core: 8.x
+package: Custom

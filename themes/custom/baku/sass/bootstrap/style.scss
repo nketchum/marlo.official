@@ -1,0 +1,10 @@
+/**
+ * Boostrap style index.
+ *
+ * Combine default variables, the bootstrap framework from node_modules, and
+ * the components of the drupal theme.
+*/
+
+@import 'variables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'overrides';

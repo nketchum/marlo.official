@@ -1,0 +1,26 @@
+// MIXINS
+
+@mixin font-smoothing($value: antialiased) {
+  @if $value == antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}
+
+@mixin rel-center($width, $max_width: initial, $min_width: initial, $is_important: false) {
+  $important:;
+  @if $is_important == true {
+    $important: !important;
+  }
+  left: 50% $important;
+  margin-left: -($width / 2) $important;
+  margin-right: initial $important;
+  max-width: $max_width $important;
+  min-width: $min_width $important;
+  position: absolute $important;
+  width: $width $important;
+}

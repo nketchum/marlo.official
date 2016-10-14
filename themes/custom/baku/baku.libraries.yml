@@ -1,0 +1,25 @@
+global-styling:
+  css:
+    theme:
+      dist/css/styles.min.css: {}
+  js:
+    dist/js/scripts.min.js: {}
+
+bootstrap-scripts:
+  js:
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/alert.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/button.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/carousel.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js: {}
+    node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js: {}
+
+vendor-assets:
+  css:
+    theme:
+      colorbox/colorbox_baku.css: {}
+  js:
+    colorbox/colorbox_baku.js: {}

@@ -1,0 +1,43 @@
+.masthead-banner {
+  display: block;
+  height: 275px;
+  margin: 40px auto 3em;
+  width: auto;
+}
+
+// Site name/logo
+.navbar-brand {
+  display: block;
+  float: none;
+  font-size: 2em;
+  height: auto;
+  letter-spacing: 0.15em;
+  line-height: 1em;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  > span {
+    &:nth-child(2n+1) {
+      font-weight: $bold-weight;
+    }
+    &:nth-child(2n+2) {
+      font-style: italic;
+      font-weight: $norm-weight;
+      margin-right: -3px;
+    }
+  }
+}
+
+// Site slogan
+.navbar-text {
+  color: $grey + 50;
+  float: initial;
+  font-family: $slab;
+  font-size: 0.8em;
+  font-weight: $norm-weight;
+  letter-spacing: 0.4em;
+  margin-top: 3em;
+  text-align: center;
+  text-transform: uppercase;
+}
