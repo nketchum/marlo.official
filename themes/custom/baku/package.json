@@ -7,7 +7,7 @@
     "bootstrap-sass": "^3.3.7",
     "goog-webfont-dl": "^0.4.0",
     "jquery": "^3.1.0",
-    "jquery.infieldlabel": "https://github.com/dcneiner/In-Field-Labels-jQuery-Plugin/tarball/master",
+    "jquery.infieldlabel": "dcneiner/In-Field-Labels-jQuery-Plugin",
     "node-sass": "^3.8.0",
     "path": "^0.12.7",
     "rimraf": "^2.5.4",
