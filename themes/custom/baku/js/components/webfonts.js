@@ -18,3 +18,7 @@ Webfont.load({
   },
   timeout: 2000
 });
+
+if (sessionStorage.fonts) {
+  document.documentElement.classList.add('wf-active');
+}

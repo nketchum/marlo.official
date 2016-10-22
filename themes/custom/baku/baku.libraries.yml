@@ -1,9 +1,12 @@
 global-styling:
   css:
     theme:
-      dist/css/styles.min.css: {}
+      dist/fonts/Roboto.css: {}
+      dist/fonts/Roboto-Condensed.css: {}
+      dist/fonts/Roboto-Slab.css: {}
+      dist/css/styles.css: {}
   js:
-    dist/js/scripts.min.js: {}
+    dist/js/scripts.js: {}
 
 bootstrap-scripts:
   js:

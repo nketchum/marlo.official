@@ -21,5 +21,3 @@ $settings['trusted_host_patterns'] = array('^([\w_-]+\.)?marlo[\w_-]*\.([a-z]{2,
 $settings['update_free_access'] = FALSE;
 
 if (file_exists(__DIR__ . '/settings.local.php')) include __DIR__ . '/settings.local.php';
-if (file_exists(__DIR__ . '/settings.stage.php')) include __DIR__ . '/settings.stage.php';
-if (file_exists(__DIR__ . '/settings.prod.php')) include __DIR__ . '/settings.prod.php';
